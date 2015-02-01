@@ -1814,16 +1814,16 @@
     </library_effects>
     <library_images>
         <image id="ID5">
-            <init_from>http://beta.vrsites.com/files/assets/images/Stone_Sandstone_Ashlar_Light.jpg</init_from>
+            <init_from>../images/Stone_Sandstone_Ashlar_Light.jpg</init_from>
         </image>
         <image id="ID18">
-            <init_from>http://beta.vrsites.com/files/assets/images/Vegetation_Grass_Artificial.jpg</init_from>
+            <init_from>../images/Vegetation_Grass_Artificial.jpg</init_from>
         </image>
         <image id="ID43">
-            <init_from>http://beta.vrsites.com/files/assets/images/__Wood_Cherry_Original_4.jpg</init_from>
+            <init_from>../images/__Wood_Cherry_Original_4.jpg</init_from>
         </image>
         <image id="ID56">
-            <init_from>http://beta.vrsites.com/files/assets/images/__Metal_Rough_1.jpg</init_from>
+            <init_from>../images/__Metal_Rough_1.jpg</init_from>
         </image>
     </library_images>
     <scene>
