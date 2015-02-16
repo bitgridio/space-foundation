@@ -5,24 +5,25 @@
 <body>
 <fireboxroom>
 <assets>
+  <assetobject id="outer_screen" src="spherescreen-large.obj" />
+  <assetobject id="sphere_visitor_platform" src="sphere-visitor-platform.obj" mtl="sphere-visitor-platform.mtl" />
+  <AssetImage id="sky_front" src="assets/images/starfield_front.png" tex_clamp="true" />
+  <AssetImage id="sky_down" src="assets/images/starfield_down.png" tex_clamp="true" />
+  <AssetImage id="sky_left" src="assets/images/starfield_left.png" tex_clamp="true" />
+  <AssetImage id="sky_up" src="assets/images/starfield_up.png" tex_clamp="true" />
+  <AssetImage id="logo" src="assets/images/logoGraphics.jpg" />
+  <AssetImage id="sky_right" src="assets/images/starfield_right.png" tex_clamp="true" />
+  <AssetImage id="sky_back" src="assets/images/starfield_back.png" tex_clamp="true" />
+  <!--<assetvideo id="back_video" auto_play="true" loop="true" src="360_warp_speed_loop_2.mp4" />-->
+</assets>
+<room pos="0.000000 0.000000 0.000000" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_back_id="sky_back" skybox_right_id="sky_right" skybox_up_id="sky_up" near_dist="0.010000" far_dist="2500.000000" run_speed="8.000000" default_sounds="false">
+  <object id="sphere_room_platform" locked="true" pos="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000" collision_id="sphere_room_platform" />
+  <object id="outer_screen" pos="0.000000 0.000000 0.000000" zdir="0.000 0.000 1.000" scale="30.000000 30.000000 30.000000" lighting="false" video_id="back_video" />
   
-  <!--<AssetSound id="mood_music" src="409219_Constellation.mp3" />-->
-  <assetobject id="outer_screen" src="spherescreen-large.obj">
-  <assetobject id="sphere_room_platform" src="sphere-room-platform.obj" mtl="sphere-room-platform.mtl">
-  <assetvideo id="back_video" auto_play="true" loop="true" src="360_warp_speed_loop_2.mp4">
-  
-</assetvideo></assetobject></assetobject></assets>
-<room pos="0.000000 0.000000 0.000000">
-  <object id="sphere_room_platform" locked="true" pos="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000" collision_id="sphere_room_platform">
-
   <!--<Sound id="mood_music" rect="-100 -50 100 50" loop="false" />-->
-  
-  <object id="outer_screen" pos="0.000000 0.000000 0.000000" zdir="0.000 0.000 1.000" scale="30.000000 30.000000 30.000000" lighting="false" video_id="back_video">
-  
   <!--<Video id="back_video" pos="0 3 3" fwd="0 0 1" />-->
-  
   <!--<Paragraph pos="5 0.5 1" fwd="-1 0 0" col="1 1 1" text_col="1 1 1" font_size="8" scale="2 2 2" locked="true" lighting="false" back_alpha="0">"Rig - Constellation" by Rig (http://www.newgrounds.com/audio/listen/409219) is licensed under CC BY-NC-SA 3.0</Paragraph>-->
-
-
-
-</object></object></room></fireboxroom></body></html>
+</room>
+</fireboxroom>
+</body>
+</html>
