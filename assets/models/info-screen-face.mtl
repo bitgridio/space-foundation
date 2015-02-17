@@ -1,64 +1,5 @@
 # Blender MTL File: 'sphere-room-platform.blend'
-# Material Count: 8
-
-newmtl Material
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 0.000000 0.185932 1.000000
-Ks 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 1
-map_Kd /Users/chrisstevens/Documents/personal/janus/githup/space-foundation/assets/images/blue-map.jpg
-
-newmtl Material.001
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 0.007610 0.007610 0.007610
-Ks 1.000000 1.000000 1.000000
-Ni 1.000000
-d 0.000000
-illum 2
-map_Kd /Users/chrisstevens/Documents/personal/janus/githup/space-foundation/assets/images/black-50.png
-map_d /Users/chrisstevens/Documents/personal/janus/githup/space-foundation/assets/images/black-50.png
-
-newmtl Material.002
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 0.000000 0.053301 0.219742
-Ks 0.500000 0.500000 0.500000
-Ni 1.000000
-d 1.000000
-illum 2
-
-newmtl Material.003
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 1
-map_Kd /Users/chrisstevens/Documents/personal/janus/githup/space-foundation/source/projector-light-polar.png
-map_d /Users/chrisstevens/Documents/personal/janus/githup/space-foundation/source/projector-light-polar.png
-
-newmtl Material.004
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 0.063010 0.539480 0.799103
-Ks 0.500000 0.500000 0.500000
-Ni 1.000000
-d 1.000000
-illum 2
-
-newmtl Material.005
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 0.342386 0.342386 0.342386
-Ks 1.000000 1.000000 1.000000
-Ni 1.000000
-d 1.000000
-illum 2
+# Material Count: 1
 
 newmtl Material.006
 Ns 96.078431
@@ -68,11 +9,3 @@ Ks 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 1
-
-newmtl None
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
