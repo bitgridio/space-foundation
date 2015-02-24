@@ -11,9 +11,10 @@
   <assetobject id="sphere_room_platform" src="assets/models/sphere-room-platform.obj" mtl="assets/models/sphere-room-platform.mtl" />
   <assetobject id="sphere_room_highlights" src="assets/models/sphere-room-highlights.obj" mtl="assets/models/sphere-room-highlights.mtl" />
   
-  <assetobject id="msphere_blue_map" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map.jpg" />
+  <!--<assetobject id="msphere_blue_map" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map.jpg" />-->
+  <assetobject id="msphere_jupiter" src="assets/models/unitsphere.obj" />
   
-  <assetobject id="msphere_nav_1" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
+  <assetobject id="msphere_nav_1" src="assets/models/unitsphere.obj" tex0="assets/images/astronomy-jupiter-largest-sm.jpg" />
   <assetobject id="msphere_nav_2" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
   <assetobject id="msphere_nav_3" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
   <assetobject id="msphere_nav_4" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
@@ -45,13 +46,15 @@
   <AssetImage id="blue_map" src="assets/images/blue-map.jpg" tex_clamp="true" />
   
 
-  <!-- outer screen images -->
+  <!-- outer sphere media assets -->
   <AssetImage id="mars_spirit_panorama" src="assets/nasa_images/PIA16440-edited.jpg" tex_clamp="true" />
   <AssetImage id="constellations" src="assets/noaa_datasets/milky-way-constellations.jpg" tex_clamp="true" />
   <AssetImage id="everest" src="assets/noaa_datasets/everest.jpg" tex_clamp="true" />
 
+  <!-- middle sphere media assets -->
+  <assetvideo id="jupiter_loop" auto_play="true" loop="true" src="assets/noaa_datasets/astronomy-jupiter-largest-2048.mp4" />
+
   <AssetWebSurface id="construction" src="assets/info_pages/construction.htm" width="700" height="285" />
-  <!--<assetvideo id="back_video" auto_play="true" loop="true" src="assets/video/360_warp_speed_loop_1.mp4" />-->
 
 </assets>
 <room pos="0.000000 0.000000 0.000000" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_back_id="sky_back" skybox_right_id="sky_right" skybox_up_id="sky_up" near_dist="0.010000" far_dist="2500.000000" run_speed="8.000000" default_sounds="false">
@@ -64,7 +67,8 @@
   <object id="outer_screen" pos="0.000000 0.000000 0.000000" zdir="0.000 0.000 1.000" scale="40.000000 40.000000 40.000000" lighting="false" image_id="constellations" />
   
   <!-- middle sphere(s) -->
-  <object id="msphere_blue_map" pos="-0.00313 3.72217 43.47392" zdir="0.000 0.000 1.000" scale="3.500000 3.500000 3.500000" lighting="false" rotate_axis="0 1 0" rotate_deg_per_sec="10" />
+  <object id="msphere_jupiter" pos="-0.00313 3.72217 43.47392" zdir="0.000 0.000 1.000" scale="3.500000 3.500000 3.500000" lighting="false" rotate_axis="0 1 0" rotate_deg_per_sec="10" video_id="jupiter_loop" />
+  <!--<object id="msphere_blue_map" pos="-0.00313 3.72217 43.47392" zdir="0.000 0.000 1.000" scale="3.500000 3.500000 3.500000" lighting="false" rotate_axis="0 1 0" rotate_deg_per_sec="10" />-->
 
   <!-- middle nav spheres -->
   <object id="msphere_nav_1" pos="2.18444 1.12747 38.17537" zdir="0.000 0.000 1.000" scale="0.600000 0.600000 0.600000" lighting="false" rotate_axis="0 1 0" rotate_deg_per_sec="10" />
