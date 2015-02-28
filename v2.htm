@@ -11,17 +11,33 @@
   <assetobject id="sphere_room_platform" src="assets/models/sphere-room-platform.obj" mtl="assets/models/sphere-room-platform.mtl" />
   <assetobject id="sphere_room_highlights" src="assets/models/sphere-room-highlights.obj" mtl="assets/models/sphere-room-highlights.mtl" />
   
+  <!-- middle sphere media assets -->
   <!--<assetobject id="msphere_blue_map" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map.jpg" />-->
   <assetobject id="msphere_jupiter" src="assets/models/unitsphere.obj" />
   
+  <assetvideo id="vid_jupiter" auto_play="true" loop="true" src="assets/noaa_datasets/astronomy-jupiter-largest-2048.mp4" />
+  <AssetImage id="img_mars_mola" src="assets/noaa_datasets/mars-mola.jpg" tex_clamp="true" />
+  <AssetImage id="img_io" src="assets/noaa_datasets/io.jpg" tex_clamp="true" />
+  <AssetImage id="img_enceladus" src="assets/noaa_datasets/enceladus.jpg" tex_clamp="true" />
+  <AssetImage id="img_moon" src="assets/noaa_datasets/moon.jpg" tex_clamp="true" />
+  <AssetImage id="img_venus" src="assets/noaa_datasets/venus.jpg" tex_clamp="true" />
+  <AssetImage id="img_mercury" src="assets/noaa_datasets/mercury.jpg" tex_clamp="true" />
+  <assetvideo id="vid_air_traffic" auto_play="true" loop="true" src="assets/noaa_datasets/astronomy-jupiter-largest-2048.mp4" />
+  
   <assetobject id="msphere_nav_1" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/astronomy-jupiter-largest-sm.jpg" />
-  <assetobject id="msphere_nav_2" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
-  <assetobject id="msphere_nav_3" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
-  <assetobject id="msphere_nav_4" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
-  <assetobject id="msphere_nav_5" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
-  <assetobject id="msphere_nav_6" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
-  <assetobject id="msphere_nav_7" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
-  <assetobject id="msphere_nav_8" src="assets/models/unitsphere.obj" tex0="assets/images/blue-map-sm.jpg" />
+  <assetobject id="msphere_nav_2" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/mars-mola-sm.jpg" />
+  <assetobject id="msphere_nav_3" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/io-sm.jpg" />
+  <assetobject id="msphere_nav_4" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/enceladus-sm.jpg" />
+  <assetobject id="msphere_nav_5" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/moon-sm.jpg" />
+  <assetobject id="msphere_nav_6" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/venus-radar-brightness-sm.jpg" />
+  <assetobject id="msphere_nav_7" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/mercury-color-enhanced-sm.jpg" />
+  <assetobject id="msphere_nav_8" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/air-traffic-sm.jpg" />
+
+
+  <!-- outer sphere media assets -->
+  <AssetImage id="mars_spirit_panorama" src="assets/nasa_images/PIA16440-edited.jpg" tex_clamp="true" />
+  <AssetImage id="constellations" src="assets/noaa_datasets/milky-way-constellations.jpg" tex_clamp="true" />
+  <AssetImage id="everest" src="assets/noaa_datasets/everest.jpg" tex_clamp="true" />
 
   <assetobject id="osphere_nav_1" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/milky-way-constellations-sm.jpg" />
   <assetobject id="osphere_nav_2" src="assets/models/unitsphere.obj" tex0="assets/noaa_datasets/everest-sm.jpg" />
@@ -44,15 +60,8 @@
   <AssetImage id="sky_right" src="assets/images/starfield_right.png" tex_clamp="true" />
   <AssetImage id="sky_back" src="assets/images/starfield_back.png" tex_clamp="true" />
   <AssetImage id="blue_map" src="assets/images/blue-map.jpg" tex_clamp="true" />
+
   
-
-  <!-- outer sphere media assets -->
-  <AssetImage id="mars_spirit_panorama" src="assets/nasa_images/PIA16440-edited.jpg" tex_clamp="true" />
-  <AssetImage id="constellations" src="assets/noaa_datasets/milky-way-constellations.jpg" tex_clamp="true" />
-  <AssetImage id="everest" src="assets/noaa_datasets/everest.jpg" tex_clamp="true" />
-
-  <!-- middle sphere media assets -->
-  <assetvideo id="jupiter_loop" auto_play="true" loop="true" src="assets/noaa_datasets/astronomy-jupiter-largest-2048.mp4" />
 
   <AssetWebSurface id="construction" src="assets/info_pages/construction.htm" width="700" height="285" />
 
@@ -67,7 +76,8 @@
   <object id="outer_screen" pos="0.000000 0.000000 0.000000" zdir="0.000 0.000 1.000" scale="40.000000 40.000000 40.000000" lighting="false" image_id="constellations" />
   
   <!-- middle sphere(s) -->
-  <object id="msphere_jupiter" pos="-0.00313 3.72217 43.47392" zdir="0.000 0.000 1.000" scale="3.500000 3.500000 3.500000" lighting="false" rotate_axis="0 1 0" video_id="jupiter_loop" />
+  <object id="msphere_jupiter" pos="-0.00313 3.72217 43.47392" zdir="0.000 0.000 1.000" scale="3.500000 3.500000 3.500000" lighting="false" rotate_axis="0 1 0" image_id="img_mars_mola" />
+  <!--<object id="msphere_jupiter" pos="-0.00313 3.72217 43.47392" zdir="0.000 0.000 1.000" scale="3.500000 3.500000 3.500000" lighting="false" rotate_axis="0 1 0" video_id="jupiter_loop" />-->
   <!--<object id="msphere_blue_map" pos="-0.00313 3.72217 43.47392" zdir="0.000 0.000 1.000" scale="3.500000 3.500000 3.500000" lighting="false" rotate_axis="0 1 0" rotate_deg_per_sec="10" />-->
 
   <!-- middle nav spheres -->
